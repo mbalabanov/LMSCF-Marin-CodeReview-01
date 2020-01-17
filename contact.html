@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+	<meta charset="utf-8" />
+	<title>Contact | Code Factory Example</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="container">
+
+<header>
+
+	<div id="logoarea">
+		<p id="pagetitle">John Doe - Full Stack Developer</p><a href="index.html"><img src="img/codefactorylogo.png" alt="Code Factory - Coding is for Everbody" id="mainlogo"></a>
+	</div>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="blog.html">Blog</a></li>
+			<li><a href="about.html">About Me</a></li>
+			<li><a href="contact.html" class="active">Contact</a></li>
+		</ul>
+	</nav>
+
+</header>
+
+<main>
+
+	<div class="widearea">
+		<h1>Contact me</h1>
+		<img src="img/09_writing.jpg" alt="Write to me">
+		<p class="photocredits">Photo by Cathryn Lavery on Unsplash</p>
+	</div>
+
+
+	<form class="contactform">
+
+		<label for="fname">First Name</label>
+		<input type="text" id="fname" name="firstname" placeholder="First name">
+
+		<label for="lname">Last Name</label>
+		<input type="text" id="lname" name="lastname" placeholder="Last name">
+
+		<label for="country">Country</label>
+		<select id="country" name="country">
+			<option value="austria">Austria</option>
+			<option value="france">France</option>
+			<option value="germany">Germany</option>
+			<option value="switzerland">Switzerland</option>
+			<option value="usa">USA</option>
+		</select>
+
+		<label for="subject">Message</label>
+		<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+		<input type="submit" value="Submit">
+
+  </form>
+
+</main>
+
+<footer>
+
+	<img src="img/codefactorylogo.png" alt="Code Factory - Coding is for Everbody">
+	<p>John Doe - Code Factory 2020</p>
+
+</footer>
+
+</div>
+
+</body>
+</html>
